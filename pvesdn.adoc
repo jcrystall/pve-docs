@@ -561,6 +561,25 @@ URL:: The NetBox REST API endpoint: `http://yournetbox.domain.com/api`
 
 Token:: An API access token
 
+[[pvesdn_ipam_plugin_nautobot]]
+Nautobot IPAM Plugin
+~~~~~~~~~~~~~~~~~~
+
+link:https://github.com/nautobot/nautobot[Nautobot] is an open-source IP
+Address Management (IPAM) and datacenter infrastructure management (DCIM) tool.
+
+To integrate Nautobot with {pve} SDN, create an API token in Nautobot as described
+here:
+https://docs.nautobot.com/projects/core/en/stable/user-guide/platform-functionality/users/token/
+
+The Nautobot configuration properties are:
+
+URL:: The Nautobot REST API endpoint: `http://yournautobot.domain.com/api`
+
+Token:: An API access token
+
+Namespace:: Nautobot IP Namespace 
+
 
 [[pvesdn_ipam_plugin_phpipam]]
 phpIPAM Plugin
